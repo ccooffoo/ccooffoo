@@ -3,10 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>cofo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>cofo studio</title>
 </head>
-<body style="background-color: black;">
-  <h1 style="color: azure; text-align: center;">I bet you didn't expect this website under construction</h1>
-  <video src="./resources/gif/cookie_monster_clapping.mp4" autoplay loop>....</video>
- </body>
+<body>
+  <main>
+    <section>
+      <header>
+        <div class="logo">
+          <img src="./resources/images/logo-transparent.svg" alt="Company logo">
+        </div>
+        <nav>
+          <ul class="nav-bar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">We</a></li>
+            <li><a href="#">Let's Talk</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+    <section class="container-hero">
+      <div class="hero">
+        <h2>Building solutions that one day were ideas</h2>
+        <img src="./resources/images/office_team.jpg" width="100" height="100px" alt="">
+      </div>
+    </section>
+    <section class="container-portfolio">
+      <div class="portfolio">
+        <div class="card-client1">
+          <img src="./resources/images/client1.jpg" width="100" height="100" alt="">
+          <p>E-commerce platform</p>
+        </div>
+        <div class="card-client2">
+          <img src="./resources/images/client2.jpg" width="100" height="100" alt="">
+          <p>E-commerce platform</p>
+        </div>
+        <div class="card-client3">
+          <img src="./resources/images/client3.jpg" width="100" height="100" alt="">
+          <p>E-commerce platform</p>
+        </div>
+        <div class="card-client4">
+          <img src="./resources/images/client4.jpg" width="100" height="100" alt="">
+          <p>E-commerce platform</p>
+        </div>
+      </div>
+    </section>
+    <section class="container-we">
+      <div class="container-text">
+        <h2>We...</h2>
+        <p>At cofo studio, we believe that every line of code tells a story, and every solution is an opportunity to transform the digital world. Established with a passion for innovation and a commitment to quality, our studio has grown into a global leader in software development, delivering cutting-edge solutions to clients across continents.</p>
+        <h5>Our Journey</h5>
+        <p>Our story began 2024 with a small, dedicated team of developers who shared a vision: to build software that not only works but inspires. From our humble beginnings, we have expanded into a diverse team of creative problem-solvers, each bringing a unique perspective and skill set to the table. This collaborative spirit has allowed us to tackle challenges of all scales, from local startups to Fortune 500 companies.</p>
+        <h5>What we do</h5>
+        <p>We specialize in creating tailor-made software solutions that drive results. Whether it's crafting user-friendly mobile apps, developing robust enterprise systems, or designing seamless digital experiences, we blend creativity with technical expertise to exceed expectations. Each project is a testament to our dedication to innovation, functionality, and elegance.</p>
+        <h5>Our Philosophy</h5>
+        <p>We don't just develop software; we build partnerships. Our clients trust us not only for our technical skills but also for our ability to listen, adapt, and deliver. We thrive on understanding their unique needs and translating them into solutions that make an impact.</p>
+        <h5>International Recognition</h5>
+        <p>Over the years, our commitment to excellence has earned us a reputation as a trusted partner on the global stage. With clients spanning [insert countries or continents], our work has been celebrated for its precision, scalability, and creativity. We've had the honor of collaborating with some of the world's most forward-thinking organizations, helping them achieve their goals through technology.</p>
+        <h5>Why choose Us</h5>
+        <p>At the heart of everything we do is a simple principle: your success is our success. Our team is driven by curiosity, fueled by innovation, and united by a shared mission to deliver software that changes the game. With us, you’re not just hiring a development studio—you’re gaining a partner invested in your vision.
+
+        Let’s write the next chapter of innovation together.</p>
+      </div>
+    </section>
+    <section class="div container-lets-talk">
+      <form action="submit" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+        <label for="message">Message</label>
+        <textarea type="text" id="message" name="message" rows="4" columns="50"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <footer>
+      <p>This is the footer</p>
+    </footer>
+  </main>
+</body>
 </html>
